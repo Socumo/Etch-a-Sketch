@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    font-family: 'Courgette', cursive;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #e732e3, #62ccf0, #b45380, #e16cc6);
+    background-size: 800% 800%;
+
+    animation: AnimationName 30s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
+}
+  #maincontainer{
+    background-color: #9198e5;
+    background: linear-gradient(270deg, #e732e3, #7332e7, #a716e3);     height: 450px;
+    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+      
+}
+.opciones {
+    margin: 7px;
+    padding: 10px;
+    width: 170px;
+    background-color: transparent;
+    color: aliceblue;
+    text-shadow: 0 0 7px aliceblue;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: medium;
+    box-shadow: 15px 5px 10px #b45380;
+    border-radius: 25%;
+
+}
